@@ -1,5 +1,5 @@
 package TestConfig;
-use Any::Moose;
+use Moose;
 use File::Spec;
 extends 'Config::GitLike';
 
@@ -39,7 +39,7 @@ sub global_file {
 }
 
 __PACKAGE__->meta->make_immutable;
-no Any::Moose;
+no Moose;
 
 1;
 

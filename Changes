@@ -1,3 +1,5 @@
+* Switch from Any::Moose to normal Moose.
+
 1.04 - 2010-04-03
 
 * The functionality of Config::GitLike::Cascaded has been folded into

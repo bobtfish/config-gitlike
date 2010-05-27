@@ -1,5 +1,5 @@
 package Config::GitLike::Cascaded;
-use Any::Moose;
+use Moose;
 use Cwd;
 use File::Spec;
 
@@ -10,7 +10,7 @@ has 'cascade' => (
 );
 
 __PACKAGE__->meta->make_immutable;
-no Any::Moose;
+no Moose;
 
 1;
 

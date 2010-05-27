@@ -1,5 +1,5 @@
 package Config::GitLike;
-use Any::Moose;
+use Moose;
 
 use File::Spec;
 use Cwd;
@@ -1223,7 +1223,7 @@ written by git. The converse is usually true, but only if you don't take
 advantage of this module's increased permissiveness when it comes to key
 names. (See L<DIFFERENCES FROM GIT-CONFIG> for details.)
 
-This is an object-oriented module using L<Any::Moose|Any::Moose>. All
+This is an object-oriented module using L<Moose>. All
 subroutines are object method calls.
 
 A few methods have parameters that are always used for the same purpose:
